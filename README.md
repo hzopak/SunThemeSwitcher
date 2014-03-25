@@ -21,14 +21,14 @@ configuration over and then edit from that base).
 
 ## Basic rundown on the settings
 
-- latitude
-    A latitude number value between - 90 and 90 where positive numbers are North
+**latitude**
+A latitude number value between - 90 and 90 where positive numbers are North
 
-- longitude
+**longitude**
     A longitude number value between - 180 and 180 where positive numbers are
     East
 
-- timezone
+**timezone**
     Either a number specifing the GMT offset time value or a string of a valid
     pytz timezone.
     This is only used for sunrise / sunset calculations.
@@ -37,30 +37,30 @@ configuration over and then edit from that base).
         open the python console and enter:
         >>> import pytz; pytz.all_timezones
 
-- forceDay, forceNight
+**forceDay, forceNight**
     If either of these are set to true it will force that state. If both are set
     forceNight wins.
     Can be set at anytime for desired effect.
 
-- overrideTimes
+**overrideTimes**
     If this is set to true the script will not use sunrise / sunset times, but
     the times specified in
     overrideSunriseTime and overrideSunsetTime
     Requires sublime reload for this to happen.
 
-- overrideSunriseTime, overrideSunsetTime
+**overrideSunriseTime, overrideSunsetTime**
     Time as a string in 24 hour time notation, use the default config as a guide
     if unsure.
 
-- dayColourScheme, nightColourScheme
+**dayColourScheme, nightColourScheme**
     In Australia we put a 'u' in colour.
     String value indicating what scheme to use at what time.
 
-- dayWindowTheme, nightWindowTheme
+**dayWindowTheme, nightWindowTheme**
     Same as above but for the window theme, not the colour scheme.
     I recommend: https://github.com/buymeasoda/soda-theme/
 
-- checkCycle
+**checkCycle**
     A float in seconds of how often to check to see if it's night or day. This
     interval does not
     recalculate sunrise and sunset times. Default 5 seconds.
