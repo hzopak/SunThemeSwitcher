@@ -1,0 +1,15 @@
+{
+    "checkCycle": 5,
+    "latitude": -31.95224,
+    "longitude": 115.86140,
+    "timezone": "Australia/Perth",
+    "forceDay": false,
+    "forceNight": false,
+    "overrideTimes": false,
+    "overrideSunriseTime": "06:00",
+    "overrideSunsetTime": "19:00",
+    "dayColourScheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+    "dayWindowTheme": "Default.sublime-theme",
+    "nightColourScheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "nightWindowTheme": "Default.sublime-theme"
+}
